@@ -21,8 +21,8 @@ int main() {
   
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "not prime", test_not_prime);
-  CU_add_test(suite, "prime", prime);
-  CU_add_test(suite, "negative or zero", test_not_prime);
+  CU_add_test(suite, "prime", test_prime);
+  CU_add_test(suite, "negative or zero", test_negative_zero);
 
 
 /* Note: Do not edit START*/
